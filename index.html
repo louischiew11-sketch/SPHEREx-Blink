@@ -115,11 +115,6 @@ code{background:var(--pn2);border-radius:4px;padding:1px 5px;font-size:12px}
     </div>
   </aside>
 </main>
-<footer>
-  <p>Data: SPHEREx Quick Release spectral images from NASA/IPAC IRSA, cut out around each target and re-aligned onto one shared sky grid (north up, east left, 6.15″ pixels). Each frame is one exposure, so the wavelength at a given pixel changes from frame to frame; the readout under the image shows it. Brightness is shown above each frame’s own background, because the files still contain zodiacal light. Green rings mark Gaia DR3 stars moved to each frame’s date by their proper motion, so a bright source with no ring deserves a closer look.</p>
-  <p>If a data server is connected, typing new coordinates fetches pictures straight from NASA’s archive. Without one, add data by hand: download new cutouts, run <code>python spx_convert.py new/*.fits --name "WISE 0855" --merge</code>, then upload the updated <code>spherex-data.json</code> next to this page.</p>
-  <p>Tools and data: <a href="https://irsa.ipac.caltech.edu/Missions/spherex.html">NASA/IPAC IRSA SPHEREx archive</a> and <a href="https://archive.stsci.edu/missions-and-data/gaia">Gaia DR3</a>. Inspired by <a href="http://byw.tools/wiseview">WiseView</a>.</p>
-</footer>
 </div>
 <script>
 (()=>{
